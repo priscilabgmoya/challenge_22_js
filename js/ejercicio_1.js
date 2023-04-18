@@ -57,7 +57,6 @@ function agregaSexoPaciente(sexo, array) {
 }
 
 function agregarDolencia(dolencia, array) {
-    debugger
     if (dolencia.length >0) {
         let dolenciaEncontrada = dolencia_estudio.find(element => element[0] == dolencia);
         if (dolenciaEncontrada !== undefined) {
