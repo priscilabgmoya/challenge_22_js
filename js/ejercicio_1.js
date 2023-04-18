@@ -64,7 +64,7 @@ function agregarDolencia(dolencia, array) {
                 array.push(dolenciaEncontrada[0]);
                 array.push(dolencia_estudio[6][1]); 
                 alert(`${dolencia_estudio[6][1]}`);
-            } else if ((array[1] == 'F' && array[2] == false) || array[1] == 'M') {
+            } else if ((array[1] == 'F' && array[2] == false) || array[1] == 'M' || ( array[1] == 'F' && array[2] == true )) {
                 array.push(dolenciaEncontrada[0]);
                 array.push(dolenciaEncontrada[1]);
                 alert(`El estudio que se tiene que realizar es: ${dolenciaEncontrada[1]}`);
